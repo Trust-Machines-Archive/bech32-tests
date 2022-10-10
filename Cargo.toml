@@ -1,0 +1,9 @@
+[package]
+name = "taproot-sigs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bitcoin = {version="*", features=["rand"]}
+rand = "*"
+
